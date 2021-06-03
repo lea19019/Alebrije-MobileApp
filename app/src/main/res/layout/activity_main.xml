@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleAlebrije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Alebrijes"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/introductionAlebrije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/getName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Enter name: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Home:  "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayAge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Enter age: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputAge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="number"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getHob1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayHob1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Hobby 1: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputHob1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getHob2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayHob2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Hobby 2: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputHob2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getAbi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayAbi1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Ability 1: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputAbi1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getAbi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/displayAbi2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".30"
+            android:text="Ability 2: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/inputAbi2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight=".70"
+            android:hint="..."
+            android:inputType="text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAlebrije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Alebrije"
+        app:backgroundTint="#4CAF50" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "Alebrije"
+include ':app'
