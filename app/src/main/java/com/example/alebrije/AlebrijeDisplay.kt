@@ -9,7 +9,7 @@ class AlebrijeDisplay : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alebrije)
 
-
+        // We are getting the input from MainActivity.kt
         var name = intent?.extras?.getString("name").toString()
         var home = intent?.extras?.getString("home").toString()
         var age = intent?.extras?.getInt("age").toString().toInt()
@@ -19,6 +19,7 @@ class AlebrijeDisplay : AppCompatActivity() {
         var abi2 = intent?.extras?.getString("abi2").toString()
         var introAlebrije = findViewById<TextView>(R.id.alebrijeStory)
 
+        // Will be used to display the story of the alebrije
         var alebrijeStory = "This is the story of ${name}, an alibreji, a mysterious\n" +
                 "creature. It lives in ${home}, a magic place full of\n" +
                 "stories.\n" +
@@ -33,6 +34,7 @@ class AlebrijeDisplay : AppCompatActivity() {
                 "of them to be ${abi1} and ${abi2}, making it a\n" +
                 "true guardian of ${home}, his home."
 
+        // We will send the story to the story view
         introAlebrije.setText(alebrijeStory)
     }
 }
